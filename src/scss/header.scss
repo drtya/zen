@@ -1,0 +1,69 @@
+
+.header{
+  padding: 15px 0;
+  position: relative;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  .header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__block{
+      &.first{
+        position: relative;
+        animation: leftAnim 2s ;
+      }
+      &.second{
+        position: relative;
+        animation: rightAnim 2s ;
+      }
+
+      display: flex;
+      .header__logo{
+        background: url("../img/header/logo.png") center/contain no-repeat;
+        width: 39px;
+        height: 39px;
+      }
+      .header__master-card{
+        background: url("../img/header/mastercard logo.png") center/contain no-repeat;
+        width: 56px;
+        height: 35px;
+        margin-left: 19px;
+      }
+      .header__about{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #222222;
+        text-align: center;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        &:nth-child(3){
+          margin-right: 30px;
+        }
+      }
+      .header__btn{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+        text-align: center;
+        color: #222222;
+        width: 131px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 48px;
+        outline: none;
+        cursor: pointer;
+        @include btnAnim;
+      }
+    }
+  }
+}

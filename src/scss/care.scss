@@ -1,0 +1,39 @@
+.care{
+  .care__block{
+    height: 590px;
+    margin-top: 150px;
+    background: url("../img/care/care.png") right center no-repeat;
+    display: flex;
+    align-items: center;
+    .care_box{
+      @include jumpRightAnimForBox;
+      .care__title{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        /* identical to box height, or 120% */
+        color: #222222;
+        margin-bottom: 22px;
+        @include titleAnim;
+      }
+      .care__about{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        color: #222222;
+        &.margin_b12{
+          margin-bottom: 12px;
+        }
+        &.black{
+          margin-top: 17px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}

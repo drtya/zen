@@ -1,0 +1,50 @@
+.cashback .cashback__block {
+  margin-top: 117px;
+}
+.cashback .cashback__block .cashback__title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #222222;
+}
+.cashback .cashback__block .cashback__about {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  text-align: center;
+  color: #222222;
+}
+.cashback .cashback__block .cashback_btn {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #222222;
+  width: 237px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 46px auto 30px;
+  cursor: pointer;
+}

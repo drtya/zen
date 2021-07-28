@@ -1,0 +1,16 @@
+.partners .owl-carousel .partners__logo {
+  width: 193px;
+  height: 70px;
+}
+.partners .owl-carousel .partners__logo.booking {
+  background: url("../img/partners/booking.png") center center no-repeat;
+}
+.partners .owl-carousel .partners__logo.aliexpress {
+  background: url("../img/partners/aliexpress.png") center center no-repeat;
+}
+.partners .owl-carousel .partners__logo.allegro {
+  background: url("../img/partners/allegro.png") center center no-repeat;
+}
+.partners .owl-carousel .partners__logo.zalando {
+  background: url("../img/partners/zalando.png") center center no-repeat;
+}

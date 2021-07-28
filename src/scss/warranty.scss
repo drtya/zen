@@ -1,0 +1,35 @@
+
+.warranty{
+  .warranty__block{
+    padding-left: 50%;
+    height: 688px;
+    display: flex;
+    align-items: center;
+    background: url("../img/warranty/warranty.png") left center no-repeat;
+    .warranty__boost-box{
+      margin-left: 135px;
+      @include jumpLeftAnimForBox;
+      .warranty__title{
+        margin-bottom: 22px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        /* identical to box height, or 120% */
+        color: #222222;
+        @include titleAnim;
+      }
+      .warranty__about{
+        margin-top: 12px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        color: #222222;
+      }
+    }
+  }
+}

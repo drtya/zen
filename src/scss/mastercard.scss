@@ -1,0 +1,75 @@
+.mastercard{
+  .mastercard__block{
+    display: flex;
+    align-items: center;
+    height: 730px;
+    background: url("../img/mastercard/mastercard.png") right center no-repeat;
+    .mastercard__box{
+      @include jumpRightAnimForBox;
+      .mastercard__title{
+        display: block;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        /* identical to box height, or 120% */
+        color: #222222;
+        position: relative;
+        @include titleAnim;
+        &::after{
+          content: 'R';
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          color: #222222;
+          width: 18px;
+          height: 18px;
+          right: -20px;
+          top: 0;
+          border-radius: 100%;
+          border: 1px solid black;
+
+        }
+      }
+      .mastercard__about{
+        margin-top: 22px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        color: #222222;
+      }
+      .mastercard__pay{
+        display: flex;
+        margin-top: 28px;
+        .mastercard-pay__box{
+          width: 90px;
+          height: 58px;
+          border: 2px solid black;
+          border-radius: 10px;
+          font-size: 55px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &.apple{
+            margin-right: 22px;
+          }
+          &.google{
+            color: #5F6368;
+            position: relative;
+            .google-img__up{
+              position: absolute;
+              left: 8px;
+              top: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

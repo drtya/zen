@@ -1,0 +1,35 @@
+.partners{
+  .partners__owl{
+    margin-bottom: 60px;
+  }
+  .owl-carousel{
+    .partners__logo{
+      width: 193px;
+      height: 70px;
+      &.booking{
+        background: url("../img/partners/booking.png") center center no-repeat;
+      }
+      &.aliexpress{
+        background: url("../img/partners/aliexpress.png") center center no-repeat;
+      }
+      &.allegro{
+        background: url("../img/partners/allegro.png") center center no-repeat;
+      }
+      &.zalando{
+        background: url("../img/partners/zalando.png") center center no-repeat;
+      }
+      &.lidl{
+        background: url("../img/partners/lidl.png") center center no-repeat;
+      }
+      &.mediamarkt{
+        background: url("../img/partners/mediamarkt.png") center center no-repeat;
+      }
+      &.rtv{
+        background: url("../img/partners/rtv.png") center center no-repeat;
+      }
+      &.groupon{
+        background: url("../img/partners/groupon.png") center center no-repeat;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.no-fees{
+  .no-fees__block{
+    padding-left: 50%;
+    display: flex;
+    align-items: center;
+    height: 545px;
+    background: url("../img/no-fees.png") left center no-repeat;
+    .no-fees__box{
+      padding-left: 135px;
+      @include jumpLeftAnimForBox;
+      .no-fees__title{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        /* identical to box height, or 120% */
+        color: #222222;
+        margin-bottom: 22px;
+        @include titleAnim;
+      }
+      .no-fees__about{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        color: #222222;
+        margin-top: 10px;
+        &:nth-child(1){
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

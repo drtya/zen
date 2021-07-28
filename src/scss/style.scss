@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__hr{
+  background: #CBD6E2;
+  margin-bottom: 200px;
+}
+@import "../lbr/owl/owl.carousel.min.css";
+@import "../lbr/owl/owl.theme.default.min.css";
+
+@import "DICORATION";
+@import "header";
+@import "shoppin";
+@import "warranty";
+@import "care";
+@import "cashback";
+@import "partners";
+@import "mastercard";
+@import "no-fees";
+@import "currencies";
+@import "account";
+@import "footer";

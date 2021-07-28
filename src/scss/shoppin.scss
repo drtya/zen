@@ -1,0 +1,90 @@
+
+.shopping{
+  .shopping__block{
+    display: flex;
+    align-items: center;
+    height: 683px;
+    background: url("../img/shopping/shopping_bg.png") right center no-repeat;
+    .shopping__box{
+      @include jumpRightAnimForBox;
+      .shopping__about{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        /* identical to box height, or 156% */
+        color: #000000;
+        display: flex;
+        align-items: center;
+        .shopping__about-play{
+          width: 27px;
+          height: 27px;
+          margin-right: 8px;
+        }
+      }
+      .shopping__title{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        line-height: 50px;
+        /* identical to box height, or 120% */
+        color: #222222;
+        margin-top: 33px;
+        margin-bottom: 23px;
+        @include titleAnim;
+      }
+      .shopping__subtitle{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        color: #222222;
+      }
+      .shopping__download-btn{
+        display: block;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        transition: 0.5s;
+        border-radius: 10px;
+        &:hover{
+          @include downloadBtnAnim;
+        }
+        .shopping__download-box{
+          margin-top: 14px;
+          width: 100%;
+          height: 100%;
+          padding-left: 40%;
+          display: flex;
+          justify-content: center;
+          border-radius: 10px;
+          flex-direction: column;
+          border: 1px solid #A6A6A6;
+          &:last-child{
+            margin-top: 20px;
+          }
+          .download-box__about{
+            color: #FFFFFF;
+            font-size: 10px;
+            line-height: 18px;
+
+          }
+          .download-box__title{
+            color: #FFFFFF;
+            font-size: 16px;
+          }
+          &.apple{
+            background: url("../img/shopping/apple.png") left 15px center  no-repeat black;
+          }
+          &.play-store{
+            background: url("../img/shopping/play-store.png") left 13px center no-repeat black;
+          }
+        }
+      }
+    }
+  }
+}
