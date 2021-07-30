@@ -1,7 +1,8 @@
 @mixin btnAnim{
   transition: 0.3s;
-  &:hover{
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  &:hover {
+    background: lightgray;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   }
 }
 @mixin downloadBtnAnim{
@@ -10,22 +11,34 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.9);
 }
 @mixin titleAnim{
+  height: 80px;
   transition: 0.5s;
   &:hover{
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 45px;
+    line-height: 50px;
     color: red;
   }
 }
+@mixin coll{
+  transition: 0.5s;
+  &:hover{
+    animation:  collAnim ease-in-out 1s infinite alternate;
+  }
+}
+@keyframes collAnim {
+  0%{transform: rotate(-3deg)}
+  100%{transform: rotate(3deg)}
+}
 @mixin jumpRightAnimForBox{
   position: relative;
-  left: -500px;
-  animation: jumpRight 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.5s forwards;
+  animation: jumpRight 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 @mixin jumpLeftAnimForBox {
-  right: -500px;
   position: relative;
-  animation: jumpLeft 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.5s forwards;
+  animation: jumpLeft 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+@mixin midAnim {
+  animation: middleAnim 2s;
 }
 @keyframes middleAnim {
   0%  {transform: scaleX(0);}

@@ -8,7 +8,6 @@
     background: url("../img/warranty/warranty.png") left center no-repeat;
     .warranty__boost-box{
       margin-left: 135px;
-      @include jumpLeftAnimForBox;
       .warranty__title{
         margin-bottom: 22px;
         font-family: Nunito;

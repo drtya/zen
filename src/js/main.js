@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
     const partners = $("#partners")
@@ -20,3 +21,4 @@ $(document).ready(function () {
         dots: false
     });
 });
+AOS.init();

@@ -6,7 +6,6 @@
     height: 683px;
     background: url("../img/shopping/shopping_bg.png") right center no-repeat;
     .shopping__box{
-      @include jumpRightAnimForBox;
       .shopping__about{
         font-family: Nunito;
         font-style: normal;
@@ -31,8 +30,8 @@
         line-height: 50px;
         /* identical to box height, or 120% */
         color: #222222;
-        margin-top: 33px;
-        margin-bottom: 23px;
+        margin-top: 30px;
+        margin-bottom: 40px;
         @include titleAnim;
       }
       .shopping__subtitle{
@@ -44,44 +43,48 @@
         /* or 144% */
         color: #222222;
       }
-      .shopping__download-btn{
-        display: block;
-        text-decoration: none;
-        width: 150px;
-        height: 50px;
-        transition: 0.5s;
-        border-radius: 10px;
-        &:hover{
-          @include downloadBtnAnim;
-        }
-        .shopping__download-box{
-          margin-top: 14px;
-          width: 100%;
-          height: 100%;
-          padding-left: 40%;
-          display: flex;
-          justify-content: center;
+      .download__box{
+        width: 175px;
+        height: 60px;
+        .shopping__download-btn{
+          display: block;
+          text-decoration: none;
+          width: 150px;
+          height: 50px;
+          transition: 0.5s;
           border-radius: 10px;
-          flex-direction: column;
-          border: 1px solid #A6A6A6;
-          &:last-child{
-            margin-top: 20px;
+          &:hover{
+            @include downloadBtnAnim;
           }
-          .download-box__about{
-            color: #FFFFFF;
-            font-size: 10px;
-            line-height: 18px;
+          .shopping__download-box{
+            margin-top: 14px;
+            width: 100%;
+            height: 100%;
+            padding-left: 40%;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            flex-direction: column;
+            border: 1px solid #A6A6A6;
+            &:last-child{
+              margin-top: 20px;
+            }
+            .download-box__about{
+              color: #FFFFFF;
+              font-size: 10px;
+              line-height: 18px;
 
-          }
-          .download-box__title{
-            color: #FFFFFF;
-            font-size: 16px;
-          }
-          &.apple{
-            background: url("../img/shopping/apple.png") left 15px center  no-repeat black;
-          }
-          &.play-store{
-            background: url("../img/shopping/play-store.png") left 13px center no-repeat black;
+            }
+            .download-box__title{
+              color: #FFFFFF;
+              font-size: 16px;
+            }
+            &.apple{
+              background: url("../img/shopping/apple.png") left 15px center  no-repeat black;
+            }
+            &.play-store{
+              background: url("../img/shopping/play-store.png") left 13px center no-repeat black;
+            }
           }
         }
       }

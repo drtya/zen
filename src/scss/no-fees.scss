@@ -7,7 +7,6 @@
     background: url("../img/no-fees.png") left center no-repeat;
     .no-fees__box{
       padding-left: 135px;
-      @include jumpLeftAnimForBox;
       .no-fees__title{
         font-family: Nunito;
         font-style: normal;

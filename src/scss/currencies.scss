@@ -5,9 +5,8 @@
     align-items: center;
     background: url("../img/currencies.png") right center no-repeat;
     .many-currencies__box{
-      @include jumpRightAnimForBox;
       .many-currencies__title{
-        margin-bottom: 19px;
+        margin-bottom: 35px;
         font-family: Nunito;
         font-style: normal;
         font-weight: normal;

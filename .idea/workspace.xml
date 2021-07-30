@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e872579b-c0fd-41f3-b254-96e6079add6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lbr/aos_link/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lbr/aos_link/aos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/DICORATION.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/DICORATION.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/care.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/care.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/cashback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/cashback.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/currencies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/currencies.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mastercard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mastercard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/no-fees.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/no-fees.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/shoppin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/shoppin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/warranty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/warranty.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +98,12 @@
       <workItem from="1627381039589" duration="1120000" />
       <workItem from="1627401579759" duration="7513000" />
       <workItem from="1627459246316" duration="137000" />
-      <workItem from="1627459788267" duration="3128000" />
+      <workItem from="1627459788267" duration="4836000" />
+      <workItem from="1627469888827" duration="1020000" />
+      <workItem from="1627551042210" duration="1604000" />
+      <workItem from="1627555710860" duration="244000" />
+      <workItem from="1627632897709" duration="2102000" />
+      <workItem from="1627665147760" duration="7511000" />
     </task>
     <servers />
   </component>

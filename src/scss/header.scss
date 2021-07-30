@@ -10,11 +10,9 @@
     .header__block{
       &.first{
         position: relative;
-        animation: leftAnim 2s ;
       }
       &.second{
         position: relative;
-        animation: rightAnim 2s ;
       }
 
       display: flex;
